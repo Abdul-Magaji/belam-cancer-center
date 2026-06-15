@@ -116,7 +116,7 @@ export default function App() {
       )}
 
       {/* 2. HERO SECTION */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-[#0F2942]">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-belam-pink">
         {/* Background Image with Ken Burns Zoom Effect */}
         <div className="absolute inset-0 z-0 opacity-30 mix-blend-multiply bg-[url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=2000')] bg-cover bg-center scale-105" 
              style={{ animation: 'kenburns 25s infinite alternate ease-in-out' }} />
@@ -249,7 +249,7 @@ export default function App() {
                 key={i} 
                 className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group"
               >
-                <h3 className="font-serif text-xl font-bold text-[#0F2942] mb-3 group-hover:text-[#2A9D8F] transition-colors relative inline-block">
+                <h3 className="font-serif text-xl font-bold text-[#0F2942] mb-3 group-hover:text-belam-blue transition-colors relative inline-block">
                   {srv.title}
                   <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#2A9D8F] transition-all duration-300 group-hover:w-full" />
                 </h3>
